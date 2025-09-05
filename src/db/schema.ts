@@ -1,3 +1,5 @@
+// npx @better-auth/cli@1.2.8 generate
+
 import { pgTable, text, timestamp, boolean } from "drizzle-orm/pg-core";
 
 export const user = pgTable("user", {
