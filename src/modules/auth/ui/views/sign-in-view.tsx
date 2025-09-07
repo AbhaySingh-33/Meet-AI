@@ -8,7 +8,7 @@ import { Alert , AlertTitle } from "@/components/ui/alert";
 import { useForm } from "react-hook-form";
 import { authClient } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
-//import { FaGithub  , FaGoogle } from "react-icons/fa";
+import { FaGithub  , FaGoogle } from "react-icons/fa";
 import { useState } from "react";
 import {
   Form,
@@ -175,7 +175,7 @@ export const SignInView = () => {
                   type="button"
                   className="w-full"
                 >
-                   {/* <FaGoogle className="mr-2" /> */}
+                   <FaGoogle className="mr-2" />
                   Google
                 </Button>
                 <Button 
@@ -185,7 +185,7 @@ export const SignInView = () => {
                   type="button"
                   className="w-full"
                 >
-                  {/* <FaGithub className="mr-2" /> */}
+                  <FaGithub className="mr-2" />
                   Github
                 </Button>
               </div>
